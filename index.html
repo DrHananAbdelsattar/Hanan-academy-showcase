@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hanan Academy</title>
+<meta name="description" content="Hanan Academy - sign in or create an account.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  (function () {
+    var l = (navigator.language || "en").toLowerCase();
+    location.replace(l.indexOf("ar") === 0 ? "ar/signin.html" : "en/signin.html");
+  })();
+</script>
+<noscript><meta http-equiv="refresh" content="0;url=ar/signin.html"></noscript>
+</head>
+<body>
+<main id="main">
+<div class="container section">
+  <h1>Hanan Academy</h1>
+  <p>Loading the sign-in page. If nothing happens, use one of these links:</p>
+  <div class="btn-row">
+    <a class="btn" href="en/signin.html" lang="en" hreflang="en">Sign in</a>
+    <a class="btn btn-outline" href="ar/signin.html" lang="ar" hreflang="ar">تسجيل الدخول</a>
+  </div>
+</div>
+</main>
+</body>
+</html>
