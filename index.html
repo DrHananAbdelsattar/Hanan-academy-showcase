@@ -3,29 +3,56 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hanan Academy</title>
-<meta name="description" content="Hanan Academy - sign in or create an account.">
+<title>Hanan Academy | أكاديمية حنان</title>
+<meta name="description" content="Hanan Academy - courses and articles in Arabic and English. Demo version.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="css/style.css">
-<script>
-  (function () {
-    var l = (navigator.language || "en").toLowerCase();
-    location.replace(l.indexOf("ar") === 0 ? "ar/signin.html" : "en/signin.html");
-  })();
-</script>
-<noscript><meta http-equiv="refresh" content="0;url=ar/signin.html"></noscript>
 </head>
 <body>
-<main id="main">
-<div class="container section">
-  <h1>Hanan Academy</h1>
-  <p>Loading the sign-in page. If nothing happens, use one of these links:</p>
-  <div class="btn-row">
-    <a class="btn" href="en/signin.html" lang="en" hreflang="en">Sign in</a>
-    <a class="btn btn-outline" href="ar/signin.html" lang="ar" hreflang="ar">تسجيل الدخول</a>
+<a class="skip-link" href="#main">Skip to main content</a>
+<main id="main" tabindex="-1">
+  <div class="hero landing-hero">
+    <div class="container">
+      <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false"><defs><linearGradient id="lg-landing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b2aa8"/><stop offset="1" stop-color="#b3174d"/></linearGradient></defs><circle cx="32" cy="32" r="30" fill="url(#lg-landing)" stroke="#ffffff" stroke-width="3"/><path d="M14 26c6-2 12-1 18 3v17c-6-4-12-5-18-3z" fill="#ffffff"/><path d="M50 26c-6-2-12-1-18 3v17c6-4 12-5 18-3z" fill="#ffffff"/><path d="M32 8l2.2 5.8L40 16l-5.8 2.2L32 24l-2.2-5.8L24 16l5.8-2.2z" fill="#ffc857"/></svg>
+      <h1>Hanan Academy</h1>
+      <p class="landing-ar" lang="ar" dir="rtl">أكاديمية حنان</p>
+      <p class="landing-lead">Choose your language to enter the website.</p>
+      <p class="landing-lead" lang="ar" dir="rtl">اختر لغتك للدخول إلى الموقع.</p>
+    </div>
   </div>
-</div>
+
+  <div class="container section">
+    <div class="two-col lang-choice">
+      <section class="card lang-card" lang="en" dir="ltr" aria-labelledby="lang-en">
+        <h2 id="lang-en">English</h2>
+        <p>Courses and articles on a website designed to be accessible to everyone.</p>
+        <div class="btn-row">
+          <a class="btn" href="en/index.html" hreflang="en">Enter the website</a>
+          <a class="btn btn-outline" href="en/signin.html" hreflang="en">Sign in</a>
+        </div>
+      </section>
+      <section class="card lang-card" lang="ar" dir="rtl" aria-labelledby="lang-ar">
+        <h2 id="lang-ar">العربية</h2>
+        <p>دورات ومقالات في موقع مصمم ليكون متاحًا للجميع.</p>
+        <div class="btn-row">
+          <a class="btn" href="ar/index.html" hreflang="ar">الدخول إلى الموقع</a>
+          <a class="btn btn-outline" href="ar/signin.html" hreflang="ar">تسجيل الدخول</a>
+        </div>
+      </section>
+    </div>
+
+    <aside class="note" aria-label="Demo notice">
+      <p><strong>Demo version.</strong> This website is shown for viewing only. The sign-in and sign-up forms are not connected to a server, so please do not enter real data.</p>
+      <p lang="ar" dir="rtl"><strong>نسخة تجريبية.</strong> يُعرض هذا الموقع للمعاينة فقط. نماذج تسجيل الدخول وإنشاء الحساب غير مرتبطة بخادم، فلا تُدخل بيانات حقيقية.</p>
+    </aside>
+  </div>
 </main>
+<footer class="landing-footer">
+  <div class="container">
+    <p>© 2026 Dr. Hanan Abdelsattar. All rights reserved. Shown for viewing only; copying, modifying or reusing any part of it requires written permission.</p>
+    <p lang="ar" dir="rtl">© 2026 د. حنان عبدالستار. جميع الحقوق محفوظة. يُعرض للمعاينة فقط، ولا يجوز نسخ أي جزء منه أو تعديله أو إعادة استخدامه دون إذن كتابي.</p>
+  </div>
+</footer>
 </body>
 </html>
