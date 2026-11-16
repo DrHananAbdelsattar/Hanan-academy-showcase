@@ -1,0 +1,189 @@
+HANAN ACADEMY WEBSITE LICENSE
+Version 1.1 - 16 November 2026
+
+Copyright (c) 2026 Dr. Hanan Abdelsattar (Hanan Academy).
+All rights reserved.
+
+This license applies to the Hanan Academy website and everything published with
+it, including the source code, HTML pages, CSS, text, course material, images,
+and the "Hanan Academy" name and logo (together, "the Work").
+
+In this license, "Hanan Academy" means Dr. Hanan Abdelsattar, the owner and
+operator of the Hanan Academy website and the sole holder of the rights in the
+Work.
+
+
+1. OWNERSHIP
+The Work is the exclusive property of Hanan Academy and is protected by
+copyright and other intellectual property laws. Accessing the Work does not
+transfer to you any ownership, title or interest in it.
+
+
+2. PERMITTED USE
+You may view, browse and use the public website for personal, non-commercial
+and educational purposes. You may read the source code in the public repository
+for reference and learning.
+
+
+3. RESTRICTIONS
+You may not do any of the following without prior written permission from
+Hanan Academy:
+
+  (a) copy, reproduce, mirror or republish the Work, or any substantial part
+      of it;
+  (b) modify, adapt, translate or create derivative works from the Work;
+  (c) distribute, sublicense, sell, rent, lease or otherwise make the Work
+      available to any third party;
+  (d) deploy or host the Work, in whole or in part, as your own website or
+      service;
+  (e) use the Work, the "Hanan Academy" name or the logo to promote any product
+      or service, or in any way that suggests endorsement or affiliation;
+  (f) remove, alter or obscure any copyright, trademark or attribution notice;
+  (g) use automated tools to scrape, crawl or harvest content or data from the
+      website in a way that the website's robots.txt does not permit;
+  (h) reverse engineer or decompile any part of the Work that is not published
+      as source code, or attempt to extract such source code.
+
+
+4. COURSE CONTENT AND CERTIFICATES
+Course material, lessons, videos, exercises, articles, certificates and
+certificate verification codes are provided for enrolled students only. They
+may not be shared, recorded, resold or redistributed. A certificate is issued
+to the named student only and is not transferable.
+
+
+5. STUDENT DATA
+Personal data submitted through the website (name, email address, messages) is
+collected and used only as described in the website Privacy Policy. That data is
+not part of the Work and is not licensed to anyone.
+
+
+6. THIRD-PARTY COMPONENTS
+The Work uses open-source software, including Python, Flask, Werkzeug, Requests
+and Gunicorn. Those components are installed separately and remain under their
+own licenses. Nothing in this document limits your rights under those licenses.
+
+
+7. NO WARRANTY
+The Work is provided "as is", without warranty of any kind, express or implied,
+including but not limited to the warranties of merchantability, fitness for a
+particular purpose and non-infringement. Hanan Academy does not warrant that the
+website will be uninterrupted, error-free or free of harmful components.
+
+
+8. LIMITATION OF LIABILITY
+To the maximum extent permitted by applicable law, Hanan Academy shall not be
+liable for any direct, indirect, incidental, special, consequential or punitive
+damages, or for any loss of profits, data or goodwill, arising out of or in
+connection with the use of, or inability to use, the Work, even if advised of
+the possibility of such damages.
+
+
+9. TERMINATION
+Any permission granted by this license terminates automatically if you breach
+any of its terms. On termination you must stop using the Work and destroy any
+copies in your possession.
+
+
+10. GOVERNING LAW
+This license is governed by the laws of the Arab Republic of Egypt, without
+regard to its conflict-of-law rules. The competent courts of Cairo, Egypt, have
+exclusive jurisdiction over any dispute arising from it.
+
+
+11. CONTACT
+For permission requests, email the address published on the website's Contact
+page, or open an issue in the repository.
+
+
+-------------------------------------------------------------------------------
+ARABIC VERSION
+-------------------------------------------------------------------------------
+
+ترخيص موقع أكاديمية حنان
+الإصدار 1.1 - 16 نوفمبر 2026
+
+حقوق النشر (c) 2026 د. حنان عبدالستار (أكاديمية حنان).
+جميع الحقوق محفوظة.
+
+يسري هذا الترخيص على موقع أكاديمية حنان وكل ما يُنشر معه، بما في ذلك الشيفرة
+المصدرية وصفحات HTML وملفات CSS والنصوص والمحتوى التعليمي والصور واسم وشعار
+«أكاديمية حنان» (ويُشار إليها مجتمعةً بـ «العمل»).
+
+ويُقصد بـ «أكاديمية حنان» في هذا الترخيص الدكتورة حنان عبدالستار، مالكة موقع
+أكاديمية حنان والقائمة عليه، وصاحبة الحقوق وحدها في العمل.
+
+
+1. الملكية
+العمل ملكٌ خاص وحصري لأكاديمية حنان، ومحمي بقوانين حقوق النشر وغيرها من قوانين
+الملكية الفكرية. ولا يترتب على وصولك إلى العمل أي نقل لملكيته أو أي حق فيه إليك.
+
+
+2. الاستخدام المسموح
+يجوز لك تصفح الموقع العام واستخدامه لأغراض شخصية غير تجارية وتعليمية، والاطلاع
+على الشيفرة المصدرية في المستودع العام على سبيل المرجع والتعلّم.
+
+
+3. القيود
+لا يجوز لك، دون إذن كتابي مسبق من أكاديمية حنان، القيام بأي مما يلي:
+
+  (أ) نسخ العمل أو أي جزء جوهري منه أو إعادة إنتاجه أو نسخه على موقع آخر؛
+  (ب) تعديل العمل أو تحويره أو ترجمته أو إنشاء أعمال مشتقة منه؛
+  (ج) توزيعه أو ترخيصه من الباطن أو بيعه أو تأجيره أو إتاحته لأي طرف ثالث؛
+  (د) نشره أو استضافته كليًا أو جزئيًا باسمك أو كخدمة خاصة بك؛
+  (هـ) استخدام العمل أو اسم «أكاديمية حنان» أو شعارها للترويج لأي منتج أو خدمة،
+      أو بأي طريقة توحي برعاية أو انتساب؛
+  (و) إزالة أي إشعار بحقوق النشر أو بالعلامات التجارية أو بالإسناد أو تغييره
+      أو إخفائه؛
+  (ز) استخدام أدوات آلية لجمع المحتوى أو البيانات من الموقع بما لا يسمح به ملف
+      robots.txt الخاص به؛
+  (ح) فك هندسة أي جزء من العمل غير المنشور كمصدر، أو محاولة استخراج شيفرته.
+
+
+4. المحتوى التعليمي والشهادات
+المحتوى التعليمي والدروس والفيديوهات والتمارين والمقالات والشهادات وأكواد
+التحقق مخصصة للطلاب المسجلين فقط، ولا يجوز مشاركتها أو تسجيلها أو إعادة بيعها
+أو توزيعها. وتُصدر الشهادة باسم الطالب المذكور فيها فقط ولا تُنقل إلى غيره.
+
+
+5. بيانات الطلاب
+تُجمع البيانات الشخصية المُرسلة عبر الموقع (الاسم والبريد الإلكتروني والرسائل)
+وتُستخدم فقط وفق ما هو منصوص عليه في سياسة الخصوصية بالموقع، وهي ليست جزءًا من
+العمل ولا تُرخَّص لأي شخص.
+
+
+6. مكوّنات الغير
+يستخدم العمل برمجيات مفتوحة المصدر، منها Python وFlask وWerkzeug وRequests
+وGunicorn، وهي تُثبَّت بشكل منفصل وتبقى خاضعة لتراخيصها الخاصة. ولا يحدّ أي شيء
+في هذا المستند من حقوقك الممنوحة بموجب تلك التراخيص.
+
+
+7. عدم الضمان
+يُقدَّم العمل «كما هو» دون أي ضمان صريح أو ضمني، بما في ذلك ضمانات القابلية
+للتسويق أو الملاءمة لغرض معين أو عدم الانتهاك. ولا تضمن أكاديمية حنان استمرار
+عمل الموقع أو خلوه من الأخطاء أو من المكوّنات الضارة.
+
+
+8. حدود المسؤولية
+إلى أقصى حدّ يجيزه القانون المعمول به، لا تتحمل أكاديمية حنان أي مسؤولية عن أي
+أضرار مباشرة أو غير مباشرة أو عرضية أو خاصة أو تبعية، أو عن أي خسارة في الأرباح
+أو البيانات أو السمعة، تنشأ عن استخدام العمل أو عدم القدرة على استخدامه، حتى لو
+تم إخطارها باحتمال حدوثها.
+
+
+9. الإنهاء
+ينتهي أي إذن يمنحه هذا الترخيص تلقائيًا عند مخالفتك أي شرط من شروطه. وعند
+الإنهاء يجب عليك التوقف عن استخدام العمل وإتلاف أي نسخ بحوزتك.
+
+
+10. القانون الواجب التطبيق
+يخضع هذا الترخيص لقوانين جمهورية مصر العربية، دون اعتبار لقواعد تنازع القوانين
+فيها. وتختص محاكم القاهرة المصرية المختصة اختصاصًا منفردًا بنظر أي نزاع ينشأ عنه.
+
+
+11. التواصل
+لطلب أي إذن، راسلنا على البريد المنشور في صفحة «اتصل بنا» بالموقع، أو افتح طلبًا
+(Issue) في المستودع.
+
+
+في حال وجود أي اختلاف بين النصين العربي والإنجليزي، تكون الأولوية للنص الإنجليزي.
