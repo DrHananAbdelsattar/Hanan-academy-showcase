@@ -34,7 +34,7 @@
 <p style="margin-top:1.25rem">البريد الإلكتروني: <a href="mailto:info@example.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D9%85%D9%86%20%D9%85%D9%88%D9%82%D8%B9%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%AD%D9%86%D8%A7%D9%86" dir="ltr">info@example.com</a></p></section>
 <section aria-labelledby="form"><h2 id="form" style="margin-top:0">أرسل رسالة</h2>
 <p>الحقول المعلَّمة بكلمة «مطلوب» ضرورية.</p>
-<form class="form" method="post" action="http://localhost:5000/contact">
+<form class="form" method="post" action="#" data-demo="1">
 <input type="hidden" name="lang" value="ar">
 <div class="field"><label for="c-name">الاسم (مطلوب)</label><input id="c-name" name="name" required autocomplete="name"></div>
 <div class="field"><label for="c-email">البريد الإلكتروني (مطلوب)</label><input id="c-email" name="email" type="email" required autocomplete="email" dir="ltr"></div>
@@ -75,5 +75,29 @@
     </div>
   </div>
 </footer>
+<script>
+(function () {
+  var arabic = document.documentElement.lang === 'ar';
+  var message = arabic
+    ? 'هذه نسخة عرض تجريبية. النماذج غير مرتبطة بخادم، لذا لم تُرسل أي بيانات.'
+    : 'This is a demo version. The forms are not connected to a server, so nothing was submitted.';
+  document.querySelectorAll('form[data-demo]').forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var box = form.querySelector('.demo-message');
+      if (!box) {
+        box = document.createElement('p');
+        box.className = 'demo-message note';
+        box.setAttribute('role', 'status');
+        box.setAttribute('aria-live', 'polite');
+        box.tabIndex = -1;
+        form.appendChild(box);
+      }
+      box.textContent = message;
+      box.focus();
+    });
+  });
+})();
+</script>
 </body>
 </html>

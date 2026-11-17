@@ -30,7 +30,7 @@
 <section class="auth-card" aria-labelledby="signin-h">
 <h1 id="signin-h">Sign in</h1>
 <p>Enter your email and password to continue.</p>
-<form class="form" method="post" action="http://localhost:5000/login">
+<form class="form" method="post" action="#" data-demo="1">
 <input type="hidden" name="lang" value="en">
 <div class="field"><label for="si-email">Email address (required)</label>
 <input id="si-email" name="email" type="email" required autocomplete="email" dir="ltr"></div>
@@ -85,5 +85,29 @@
     </div>
   </div>
 </footer>
+<script>
+(function () {
+  var arabic = document.documentElement.lang === 'ar';
+  var message = arabic
+    ? 'هذه نسخة عرض تجريبية. النماذج غير مرتبطة بخادم، لذا لم تُرسل أي بيانات.'
+    : 'This is a demo version. The forms are not connected to a server, so nothing was submitted.';
+  document.querySelectorAll('form[data-demo]').forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var box = form.querySelector('.demo-message');
+      if (!box) {
+        box = document.createElement('p');
+        box.className = 'demo-message note';
+        box.setAttribute('role', 'status');
+        box.setAttribute('aria-live', 'polite');
+        box.tabIndex = -1;
+        form.appendChild(box);
+      }
+      box.textContent = message;
+      box.focus();
+    });
+  });
+})();
+</script>
 </body>
 </html>

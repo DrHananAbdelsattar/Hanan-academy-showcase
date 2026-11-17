@@ -37,7 +37,7 @@
 </ol>
 <div class="btn-row"><a class="btn btn-teal" href="https://wa.me/201000000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%AD%D9%86%D8%A7%D9%86."><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M4 4h16v12H9l-5 4z" stroke-linejoin="round"/></svg>تواصل عبر واتساب</a><a class="btn btn-accent" href="mailto:info@example.com?subject=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D9%85%D9%86%20%D9%85%D9%88%D9%82%D8%B9%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%AD%D9%86%D8%A7%D9%86"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>راسلنا بالبريد الإلكتروني</a></div></section>
 <section aria-labelledby="verify"><h2 id="verify" style="margin-top:0">التحقق من شهادة</h2>
-<form class="form" method="get" action="http://localhost:5000/verify">
+<form class="form" method="get" action="#" data-demo="1">
 <input type="hidden" name="lang" value="ar">
 <div class="field"><label for="code">رمز التحقق (مطلوب)</label>
 <input id="code" name="code" required dir="ltr" autocomplete="off" aria-describedby="code-hint" placeholder="HA-XXXX-XXXX">
@@ -77,5 +77,29 @@
     </div>
   </div>
 </footer>
+<script>
+(function () {
+  var arabic = document.documentElement.lang === 'ar';
+  var message = arabic
+    ? 'هذه نسخة عرض تجريبية. النماذج غير مرتبطة بخادم، لذا لم تُرسل أي بيانات.'
+    : 'This is a demo version. The forms are not connected to a server, so nothing was submitted.';
+  document.querySelectorAll('form[data-demo]').forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      var box = form.querySelector('.demo-message');
+      if (!box) {
+        box = document.createElement('p');
+        box.className = 'demo-message note';
+        box.setAttribute('role', 'status');
+        box.setAttribute('aria-live', 'polite');
+        box.tabIndex = -1;
+        form.appendChild(box);
+      }
+      box.textContent = message;
+      box.focus();
+    });
+  });
+})();
+</script>
 </body>
 </html>
